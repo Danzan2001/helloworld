@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задача 1, 2");
-        float A = 27.12f;
-        long B = 987678965549L;
-        short C = 2786;
-        int D = 569;
-        short E = -159;
-        short F = 27897;
-        byte G = 67;
+        float a = 27.12f;
+        long b = 987678965549L;
+        short c = 2786;
+        int d = 569;
+        short e = -159;
+        short f = 27897;
+        byte g = 67;
         System.out.println("Задача 3");
         byte lydmillaP = 23;
         byte annaS = 27;
@@ -78,6 +78,5 @@ public class Main {
         float currentIncomeKristina = increaseKristina * 12;
         float incomeDifferenceKristina = currentIncomeKristina - pastIncomeKristina;
         System.out.println("Теперь Кристина получает " + increaseKristina + " рублей. Годовой доход вырос на " + incomeDifferenceKristina + " рублей");
-
-    }
+            }
 }
