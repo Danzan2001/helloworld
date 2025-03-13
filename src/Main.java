@@ -1,82 +1,46 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задача 1, 2");
-        float a = 27.12f;
-        long b = 987678965549L;
-        short c = 2786;
-        int d = 569;
-        short e = -159;
-        short f = 27897;
-        byte g = 67;
+        System.out.println("Задача 1");
+        int age = 16;
+        if (age >= 18) {
+            System.out.println("Возраст челоека равен " + age + " то он достиг совершеннолетия");
+        } else {
+            System.out.println("Возраст человека равен " + age + " то он не достиг совершеннолетия и нужно немного подождать");
+        }
+        System.out.println("Задача 2");
+        int temperature = 15;
+        if (temperature >= 5) {
+            System.out.println("На улице тепло и можно идти без шапки");
+        } else {
+            System.out.println("На улице холодно, нужно надеть шапку");
+        }
         System.out.println("Задача 3");
-        byte lydmillaP = 23;
-        byte annaS = 27;
-        byte ekaterinaA = 30;
-        int paper = 480;
-        int owerPeper = (lydmillaP + annaS + ekaterinaA);
-        int peperForClass = paper/owerPeper;
-        System.out.println("На каждого ученика расчитано " + peperForClass + " листов бумаги");
+        int speed = 50;
+        if (speed <= 60) {
+            System.out.println("Если скорость " + speed + " то можно ездить спокойно");
+        } else {
+            System.out.println("Если скорость " + speed + " придется заплатить штраф");
+        }
         System.out.println("Задача 4");
-        byte car = 8;
-        byte minutes = 20;
-        int efficiencyMinutes = car * 20;
-        System.out.println("За " + minutes + " минут машина произвела " + efficiencyMinutes + " штук бутылок");
-        int hours = 24;
-        int efficiencyHours = (60*24)*car;
-        System.out.println("За " + hours + " часа машина произвела " + efficiencyHours + " штук бутылок");
-        int days = 3;
-        int efficiencyDays = ((60*24)*3)*car;
-        System.out.println("За " + days + " день машина произвела " + efficiencyDays + " штук бутылок");
-        int mount = 1;
-        int efficiencyMount = ((60*24)*31)*car;
-        System.out.println("За " + mount + " день машина произвела " + efficiencyMount + " штук бутылок");
+        int ageOfPerson = 21;
+        if (ageOfPerson >= 18 || ageOfPerson <= 24) {
+            System.out.println("Ему возраст человека равен " + ageOfPerson + " то его место в университетe");
+        }
         System.out.println("Задача 5");
-        byte totalCans = 120;
-        byte whitePaint = 2;
-        byte brownPaint = 4;
-        int paintForOneClass = whitePaint+brownPaint;
-        int totalClass = totalCans/paintForOneClass;
-        int whitePaintForClass = totalClass*whitePaint;
-        int brownPaintForClass = totalClass*brownPaint;
-        System.out.println("В школе, где " + totalClass + " классов, нужно " + whitePaintForClass + " банок белой краски и " + brownPaintForClass + " банок коричневой краски");
+        int ageBaby = 10;
+        if (ageBaby >= 5 || ageBaby <= 14) ; {
+            System.out.println("Если возраст ребенка равен " + ageBaby + " то ему разрешается кататься на аттракционах в сопровождении взрослых"); }
         System.out.println("Задача 6");
-        int bananas = 80*5;
-        int milk = 105*2;
-        int iceCream = 100*2;
-        int egs = 70*4;
-        int kg = 1000;
-        float breakfastWeight = bananas + milk + iceCream + egs;
-        float breakfastWeightKg = breakfastWeight/kg;
-        System.out.println(breakfastWeight + " гм.");
-        System.out.println(breakfastWeightKg + " кг.");
+        int place = 70;
+        if (place <= 60) {
+            System.out.println("Место в вагоне сидячее");
+        } else {
+            System.out.println("Место в вагоне стоячее"); }
         System.out.println("Задача 7");
-        short excessWeight = 7000;
-        short diet1 = 250;
-        short diet2 = 500;
-        int resultDiet1 = excessWeight/diet1;
-        int resultDiet2 = excessWeight/diet2;
-        System.out.println(resultDiet1 + " дней");
-        System.out.println(resultDiet2 + " дней");
-        System.out.println("Задача 8");
-        int masha = 67760;
-        int denis = 83690;
-        int kristina = 76230;
-        float increase = 10;
-        float percent = 100;
-        float increaseMasha = ((masha/percent)*10)+masha;
-        int pastIncomeMasha = masha * 12;
-        float currentIncomeMasha = increaseMasha * 12;
-        float incomeDifferenceMasha = currentIncomeMasha - pastIncomeMasha;
-        System.out.println("Теперь Маша получает " + increaseMasha + " рублей. Годовой доход вырос на " + incomeDifferenceMasha + " рублей");
-        float increaseDenis = ((denis/percent)*10)+denis;
-        int pastIncomeDenis = denis * 12;
-        float currentIncomeDenis = increaseDenis * 12;
-        float incomeDifferenceDenis = currentIncomeDenis - pastIncomeDenis;
-        System.out.println("Теперь Денис получает " + increaseDenis + " рублей. Годовой доход вырос на " + incomeDifferenceDenis + " рублей");
-        float increaseKristina = ((kristina/percent)*10)+kristina;
-        int pastIncomeKristina = kristina * 12;
-        float currentIncomeKristina = increaseKristina * 12;
-        float incomeDifferenceKristina = currentIncomeKristina - pastIncomeKristina;
-        System.out.println("Теперь Кристина получает " + increaseKristina + " рублей. Годовой доход вырос на " + incomeDifferenceKristina + " рублей");
-            }
-}
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (two > one && two < three);
+        System.out.println("3 больше чем 2 и 1");
+        }
+        }
